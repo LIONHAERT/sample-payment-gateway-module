@@ -8,6 +8,8 @@
 
     $field1               = Filter::POST("field1"); // $_POST["field1"];
     $field2               = Filter::POST("field2"); // $_POST["field2"];
+    $commission_rate      = Filter::init("POST/commission_rate","amount");
+    $commission_rate      = str_replace(",",".",$commission_rate);
 
 
     $sets           = [];
@@ -17,6 +19,9 @@
 
     if($field2 != $config["settings"]["field2"])
         $sets["settings"]["field2"] = $field2;
+
+    if($commission_rate != $config["settings"]["commission_rate"])
+        $sets["settings"]["commission_rate"] = $commission_rate;
 
 
     if($sets){
