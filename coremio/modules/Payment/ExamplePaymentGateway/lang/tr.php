@@ -6,7 +6,7 @@ return [
     'description'          => 'Ödeme yöntemi bilgi',
 
     'field1'                => 'Alan 1',
-    'field1'                => 'Alan 2',
+    'field2'                => 'Alan 2',
 
     'field1-desc'           => 'Alan 1 için Açıklama',
     'field2-desc'           => 'Alan 2 için Açıklama',
