@@ -11,6 +11,9 @@ return [
     'field1-desc'           => 'Description for Field 1',
     'field2-desc'           => 'Description for Field 2',
     
+    'commission-rate'      => 'Commission Rate (%)',
+    'commission-rate-desc' => 'Enter the percentage (%) value for commission fees',
+    
     'save-button'          => 'Save Settings',
     'success1'             => 'Settings saved successfully.',
 ];
