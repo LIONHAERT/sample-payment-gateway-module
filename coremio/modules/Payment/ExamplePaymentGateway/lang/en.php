@@ -6,7 +6,7 @@ return [
     'description'          => 'Description of payment method',
 
     'field1'                => 'Field 1',
-    'field1'                => 'Field 2',
+    'field2'                => 'Field 2',
 
     'field1-desc'           => 'Description for Field 1',
     'field2-desc'           => 'Description for Field 2',
