@@ -1,7 +1,7 @@
 <?php
     class ExamplePaymentGateway {
         public $checkout_id,$checkout;
-        public $name,$commission=false;
+        public $name,$commission=true;
         public $config=[],$lang=[],$page_type = "in-page",$callback_type="server-sided";
         public $payform=false;
 
@@ -32,8 +32,7 @@
 
 
         public function get_commission_rate(){
-            //return $this->config["settings"]["commission_rate"];
-            return false;
+            return $this->config["settings"]["commission_rate"];
         }
 
         public function cid_convert_code($id=0){
