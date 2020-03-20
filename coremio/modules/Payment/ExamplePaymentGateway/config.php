@@ -8,5 +8,6 @@ return [
     'settings' => [
         'field1' => '',
         'field2' => '',
+        'commission_rate' => 0,
     ],
 ];
