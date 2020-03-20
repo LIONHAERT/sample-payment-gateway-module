@@ -34,6 +34,14 @@
         </div>
     </div>
 
+    <div class="formcon">
+        <div class="yuzde30"><?php echo $LANG["commission-rate"]; ?></div>
+        <div class="yuzde70">
+            <input type="text" name="commission_rate" value="<?php echo $CONFIG["settings"]["commission_rate"]; ?>" style="width: 80px;">
+            <span class="kinfo"><?php echo $LANG["commission-rate-desc"]; ?></span>
+        </div>
+    </div>
+
     
     <div class="formcon">
         <div class="yuzde30">Callback URL</div>
